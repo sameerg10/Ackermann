@@ -1,0 +1,84 @@
+V "GNAT Lib v4.8"
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK
+
+U stack%b		stack.adb		dd8285e9 OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U stack%s		stack.ads		263c4786 EE NE OO PK IL
+
+D ada.ads		20140914212106 3ffc8e18
+D a-except.ads		20140914212102 10fcae55
+D a-finali.ads		20140914212102 52ecdc1b
+D a-flteio.ads		20140914212102 e18a47a0
+D a-inteio.ads		20140914212102 f64b89a4
+D a-ioexce.ads		20140914212102 8b9de6cd
+D a-numeri.ads		20140914212102 bb51c45a
+D a-nuelfu.ads		20140914212102 03e83d1c
+D a-ngelfu.ads		20140914212102 243903c9
+D a-stream.ads		20140914212104 2ca4ee37
+D a-tags.ads		20140914212104 6c0509d0
+D a-textio.ads		20140914212104 386df5d4
+D a-tiflio.ads		20140914212106 56fbda09
+D a-tiinio.ads		20140914212106 aa04e5d6
+D a-unccon.ads		20140914212106 f9eb8f06
+D interfac.ads		20140914212110 129923ea
+D i-cstrea.ads		20140914212110 3286f6aa
+D stack.ads		20150411050730 263c4786
+D stack.adb		20150412011208 ef973177
+D system.ads		20140914212116 5fc8ae56
+D s-crtl.ads		20140914212110 1ea48bce
+D s-exctab.ads		20140914212110 66e51330
+D s-ficobl.ads		20140914212110 55a71d43
+D s-finmas.ads		20140914212110 b95bb341
+D s-finroo.ads		20140914212110 4ff27390
+D s-parame.ads		20140914212114 b6e20cc0
+D s-pooglo.ads		20140914212114 542f33d0
+D s-soflin.ads		20140914212114 24c8153c
+D s-stache.ads		20140914212114 596fc1b4
+D s-stalib.ads		20140914212114 f78bcf95
+D s-stoele.ads		20140914212114 facd7d98
+D s-stoele.adb		20140914212114 afc5dc80
+D s-stopoo.ads		20140914212114 7b8fbeee
+D s-traent.ads		20140914212116 5221ee41
+D s-unstyp.ads		20140914212116 6ae15c76
+D s-wchcon.ads		20140914212116 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 19|5r6 5r23 6r6 6r31 7r6 7r29 8r6 8r45 9r6 9r23
+X 4 a-flteio.ads
+20K13*Float_Text_IO[13|45] 19|7w10 7r33
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[14|45] 19|6w10 6r35
+X 7 a-numeri.ads
+16K13*Numerics 32e17 19|8r10 8r49
+X 8 a-nuelfu.ads
+18K22*Elementary_Functions[9|39] 19|8w19 8r58
+X 12 a-textio.ads
+49K13*Text_IO 471e16 19|5w10 5r27 9w10 9r27
+X 18 stack.ads
+5K9*stack 9l5 9e10 19|11b14 48l5 48t10
+6U15*push 6>20 19|22b15 29l9 29t13
+6i20 x{integer} 19|22b20 28r28
+7U15*pop 7<19 19|31b15 38l9 38t12
+7i19 x{integer} 19|31b19 36m9
+8V14*stackEmpty{boolean} 19|33s12 40b14 47l9 47t19
+X 19 stack.adb
+13A10 stackArray(integer)<integer> 17r16
+15R10 q_stack 19e19 20r10
+17a9*item{13A10} 28m12 36r17
+18i9*top{integer} 24r15 27m12 27r22 28r20 36r25 37m12 37r22 42r15
+20r5 st{15R10} 24r12 27m9 27r19 28m9 28r17 36r14 36r22 37m9 37r19 42r12
+
